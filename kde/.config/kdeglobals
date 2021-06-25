@@ -109,12 +109,12 @@ ForegroundVisited=127,140,141
 BrowserApplication=google-chrome.desktop
 ColorScheme=BreezeDark
 Name=Breeze Dark
-fixed=Hack,13,-1,5,50,0,0,0,0,0
-font=Noto Sans,13,-1,5,50,0,0,0,0,0
-menuFont=Noto Sans,13,-1,5,50,0,0,0,0,0
+fixed=Hack,12,-1,5,50,0,0,0,0,0
+font=Noto Sans,12,-1,5,50,0,0,0,0,0
+menuFont=Noto Sans,12,-1,5,50,0,0,0,0,0
 shadeSortColumn=true
-smallestReadableFont=Noto Sans,13,-1,5,50,0,0,0,0,0
-toolBarFont=Noto Sans,13,-1,5,50,0,0,0,0,0
+smallestReadableFont=Noto Sans,12,-1,5,50,0,0,0,0,0
+toolBarFont=Noto Sans,12,-1,5,50,0,0,0,0,0
 widgetStyle=Breeze
 
 [Icons]
@@ -133,7 +133,7 @@ ScreenScaleFactors=eDP-1=1.25;HDMI-1=1.25;
 [WM]
 activeBackground=49,54,59
 activeBlend=255,255,255
-activeFont=Noto Sans,13,-1,5,50,0,0,0,0,0
+activeFont=Noto Sans,12,-1,5,50,0,0,0,0,0
 activeForeground=239,240,241
 inactiveBackground=49,54,59
 inactiveBlend=75,71,67

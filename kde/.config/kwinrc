@@ -49,8 +49,8 @@ LayoutName=org.kde.breeze.desktop
 ElectricBorderCooldown=350
 ElectricBorderCornerRatio=0.25
 ElectricBorderDelay=150
-ElectricBorderMaximize=true
-ElectricBorderTiling=true
+ElectricBorderMaximize=false
+ElectricBorderTiling=false
 ElectricBorders=0
 
 [org.kde.kdecoration2]
