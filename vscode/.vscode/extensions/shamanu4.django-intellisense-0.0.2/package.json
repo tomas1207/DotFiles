@@ -1,0 +1,73 @@
+{
+	"name": "django-intellisense",
+	"displayName": "django-intellisense",
+	"description": "Full autocomplete support for django magic methods",
+	"version": "0.0.2",
+	"publisher": "shamanu4",
+	"author": {
+		"name": "Maxim Musayev"
+	},
+	"license": "MIT",
+	"homepage": "https://gitlab.com/shamanu4/django-intellisense",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/shamanu4/django-intellisense"
+	},
+	"bugs": {
+		"url": "https://gitlab.com/shamanu4/django-intellisense/issues"
+	},
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"activationEvents": [
+		"onLanguage:python",
+		"onDebugResolve:python"
+	],
+	"main": "./out/extension",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Django intellisense configuration",
+			"properties": {
+				"djangointellisense.projectRoot": {
+					"type": "string",
+					"default": "",
+					"description": "Django project root directory"
+				},
+				"djangointellisense.settingsModule": {
+					"type": "string",
+					"default": "",
+					"description": "settings module path (Example: `projectname.settings`)"
+				},
+				"djangointellisense.debugMessages": {
+					"type": "boolean",
+					"default": false,
+					"description": "Enable debug messages"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./ && cp src/*.py out",
+		"watch": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.21",
+		"tslint": "^5.8.0",
+		"@types/node": "^8.10.25",
+		"@types/mocha": "^2.2.42"
+	},
+	"__metadata": {
+		"id": "0c494521-041d-49e0-b75d-e76c16270fde",
+		"publisherId": "a7076116-22fb-486d-8bc8-7b0017c81873",
+		"publisherDisplayName": "shamanu4"
+	}
+}
