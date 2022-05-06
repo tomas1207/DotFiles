@@ -1,6 +1,6 @@
 [user]
-	email = tomasfernandes98@gmail.com
-	name = Tomas1207
+  email = tomasfernandes98@gmail.com
+  name = Tomas1207
 [color]
   status = auto
   diff = auto
@@ -37,4 +37,4 @@
 [rebase]
   autoStash = true
 [fetch]
-	prune = true
+  prune = true
