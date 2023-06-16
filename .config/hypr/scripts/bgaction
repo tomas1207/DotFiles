@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+
+#start swww
+swww query || swww init
+swww img ~/.config/hypr/wallpaper-dark.jpg
